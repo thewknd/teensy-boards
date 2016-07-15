@@ -349,10 +349,10 @@
 </package>
 <package name="C0603">
 <description>&lt;b&gt;0603&lt;b&gt;&lt;p&gt;</description>
-<wire x1="0.635" y1="1.397" x2="0.635" y2="-1.397" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-1.397" x2="-0.635" y2="-1.397" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="-1.397" x2="-0.635" y2="1.397" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="0.127" layer="21"/>
+<wire x1="0.6985" y1="1.4605" x2="0.6985" y2="-1.4605" width="0.127" layer="21"/>
+<wire x1="0.6985" y1="-1.4605" x2="-0.6985" y2="-1.4605" width="0.127" layer="21"/>
+<wire x1="-0.6985" y1="-1.4605" x2="-0.6985" y2="1.4605" width="0.127" layer="21"/>
+<wire x1="-0.6985" y1="1.4605" x2="0.6985" y2="1.4605" width="0.127" layer="21"/>
 <smd name="1" x="0" y="0.762" dx="0.889" dy="0.889" layer="1" roundness="25" rot="R270"/>
 <smd name="2" x="0" y="-0.762" dx="0.889" dy="0.889" layer="1" roundness="25" rot="R270"/>
 <text x="0.889" y="1.27" size="0.889" layer="25" font="vector" ratio="11" rot="R270">&gt;NAME</text>
@@ -366,10 +366,10 @@
 </package>
 <package name="C0805">
 <description>&lt;b&gt;0805&lt;b&gt;&lt;p&gt;</description>
-<wire x1="0.889" y1="-1.7145" x2="-0.889" y2="-1.7145" width="0.127" layer="21"/>
-<wire x1="-0.889" y1="-1.7145" x2="-0.889" y2="1.7145" width="0.127" layer="21"/>
-<wire x1="-0.889" y1="1.7145" x2="0.889" y2="1.7145" width="0.127" layer="21"/>
-<wire x1="0.889" y1="1.7145" x2="0.889" y2="-1.7145" width="0.127" layer="21"/>
+<wire x1="0.9525" y1="-1.778" x2="-0.9525" y2="-1.778" width="0.127" layer="21"/>
+<wire x1="-0.9525" y1="-1.778" x2="-0.9525" y2="1.778" width="0.127" layer="21"/>
+<wire x1="-0.9525" y1="1.778" x2="0.9525" y2="1.778" width="0.127" layer="21"/>
+<wire x1="0.9525" y1="1.778" x2="0.9525" y2="-1.778" width="0.127" layer="21"/>
 <smd name="1" x="0" y="1.016" dx="1.016" dy="1.397" layer="1" roundness="25" rot="R270"/>
 <smd name="2" x="0" y="-1.016" dx="1.016" dy="1.397" layer="1" roundness="25" rot="R270"/>
 <text x="1.143" y="1.905" size="0.889" layer="25" font="vector" ratio="11" rot="R270">&gt;NAME</text>
@@ -397,10 +397,10 @@
 <wire x1="-0.6" y1="-1.4" x2="-0.6" y2="1.4" width="0.05" layer="51"/>
 </package>
 <package name="L0603">
-<wire x1="-1.397" y1="0.635" x2="1.397" y2="0.635" width="0.127" layer="21"/>
-<wire x1="1.397" y1="0.635" x2="1.397" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="1.397" y1="-0.635" x2="-1.397" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-1.397" y1="-0.635" x2="-1.397" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-1.4605" y1="0.6985" x2="1.4605" y2="0.6985" width="0.127" layer="21"/>
+<wire x1="1.4605" y1="0.6985" x2="1.4605" y2="-0.6985" width="0.127" layer="21"/>
+<wire x1="1.4605" y1="-0.6985" x2="-1.4605" y2="-0.6985" width="0.127" layer="21"/>
+<wire x1="-1.4605" y1="-0.6985" x2="-1.4605" y2="0.6985" width="0.127" layer="21"/>
 <smd name="1" x="-0.762" y="0" dx="0.889" dy="0.889" layer="1" roundness="25"/>
 <smd name="2" x="0.762" y="0" dx="0.889" dy="0.889" layer="1" roundness="25"/>
 <text x="-1.905" y="0.889" size="0.889" layer="25" ratio="11">&gt;NAME</text>
@@ -512,14 +512,14 @@
 <text x="0" y="0" size="0.7" layer="51" rot="R270" align="center">&gt;NAME</text>
 </package>
 <package name="SOLDERJUMPER">
-<wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="1.397" y1="1.016" x2="1.651" y2="0.762" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="0.762" x2="-1.397" y2="1.016" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="-0.762" x2="-1.397" y2="-1.016" width="0.2032" layer="21" curve="90"/>
-<wire x1="1.397" y1="-1.016" x2="1.651" y2="-0.762" width="0.2032" layer="21" curve="90"/>
-<wire x1="1.651" y1="-0.762" x2="1.651" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="-1.651" y1="-0.762" x2="-1.651" y2="0.762" width="0.2032" layer="21"/>
-<wire x1="-1.397" y1="1.016" x2="1.397" y2="1.016" width="0.2032" layer="21"/>
+<wire x1="1.397" y1="-1.0795" x2="-1.397" y2="-1.0795" width="0.2032" layer="21"/>
+<wire x1="1.397" y1="1.0795" x2="1.651" y2="0.8255" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="0.8255" x2="-1.397" y2="1.0795" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.651" y1="-0.8255" x2="-1.397" y2="-1.0795" width="0.2032" layer="21" curve="90"/>
+<wire x1="1.397" y1="-1.0795" x2="1.651" y2="-0.8255" width="0.2032" layer="21" curve="90"/>
+<wire x1="1.651" y1="-0.8255" x2="1.651" y2="0.8255" width="0.2032" layer="21"/>
+<wire x1="-1.651" y1="-0.8255" x2="-1.651" y2="0.8255" width="0.2032" layer="21"/>
+<wire x1="-1.397" y1="1.0795" x2="1.397" y2="1.0795" width="0.2032" layer="21"/>
 <smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1" cream="no"/>
 <smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1" cream="no"/>
 <text x="-1.651" y="1.27" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
@@ -533,27 +533,24 @@
 </package>
 <package name="F0805">
 <description>&lt;b&gt;0805&lt;b&gt;&lt;p&gt;</description>
-<wire x1="0.889" y1="-1.651" x2="-0.889" y2="-1.651" width="0.127" layer="21"/>
-<wire x1="-0.889" y1="-1.651" x2="-0.889" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.889" y1="0" x2="-0.889" y2="1.651" width="0.127" layer="21"/>
-<wire x1="-0.889" y1="1.651" x2="0.889" y2="1.651" width="0.127" layer="21"/>
-<wire x1="0.889" y1="1.651" x2="0.889" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="0.9525" y1="-1.651" x2="-0.9525" y2="-1.651" width="0.127" layer="21"/>
+<wire x1="-0.9525" y1="-1.651" x2="-0.9525" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="-0.9525" y1="-0.127" x2="-0.9525" y2="1.651" width="0.127" layer="21"/>
+<wire x1="-0.9525" y1="1.651" x2="0.9525" y2="1.651" width="0.127" layer="21"/>
+<wire x1="0.9525" y1="1.651" x2="0.9525" y2="-0.127" width="0.127" layer="21"/>
 <smd name="1" x="0" y="0.889" dx="1.016" dy="1.397" layer="1" roundness="25" rot="R270"/>
 <smd name="2" x="0" y="-0.889" dx="1.016" dy="1.397" layer="1" roundness="25" rot="R270"/>
 <text x="1.143" y="1.905" size="0.889" layer="25" font="vector" ratio="11" rot="R270">&gt;NAME</text>
 <text x="-2.159" y="1.27" size="0.635" layer="27" ratio="10" rot="R270">&gt;VALUE</text>
 <rectangle x1="-1.4605" y1="-0.762" x2="1.4605" y2="0.762" layer="39" rot="R270"/>
-<wire x1="0.889" y1="-0.127" x2="0.889" y2="-1.651" width="0.127" layer="21"/>
-<wire x1="-0.889" y1="0" x2="-0.762" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.762" y1="0" x2="-0.635" y2="0.127" width="0.127" layer="21" curve="90"/>
-<wire x1="-0.635" y1="0.127" x2="-0.254" y2="0.127" width="0.127" layer="21" curve="-180"/>
-<wire x1="-0.254" y1="0.127" x2="-0.254" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.254" y1="0" x2="0.127" y2="0" width="0.127" layer="21" curve="180"/>
-<wire x1="0.127" y1="0" x2="0.127" y2="0.127" width="0.127" layer="21"/>
-<wire x1="0.127" y1="0.127" x2="0.508" y2="0.127" width="0.127" layer="21" curve="-180"/>
-<wire x1="0.508" y1="0.127" x2="0.508" y2="0" width="0.127" layer="21"/>
-<wire x1="0.508" y1="0" x2="0.635" y2="-0.127" width="0.127" layer="21" curve="90"/>
-<wire x1="0.635" y1="-0.127" x2="0.889" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="0.9525" y1="-0.127" x2="0.9525" y2="-1.651" width="0.127" layer="21"/>
+<wire x1="-0.9525" y1="-0.127" x2="-0.508" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="-0.508" y1="-0.127" x2="-0.381" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="-0.381" y1="0" x2="-0.127" y2="0" width="0.127" layer="21" curve="-180"/>
+<wire x1="-0.127" y1="0" x2="0.127" y2="0" width="0.127" layer="21" curve="180"/>
+<wire x1="0.127" y1="0" x2="0.381" y2="0" width="0.127" layer="21" curve="-180"/>
+<wire x1="0.381" y1="0" x2="0.508" y2="-0.127" width="0.127" layer="21" curve="90"/>
+<wire x1="0.508" y1="-0.127" x2="0.9525" y2="-0.127" width="0.127" layer="21"/>
 <wire x1="-0.8" y1="1.6" x2="-0.8" y2="-1.6" width="0.05" layer="51"/>
 <wire x1="-0.8" y1="-1.6" x2="0.8" y2="-1.6" width="0.05" layer="51"/>
 <wire x1="0.8" y1="-1.6" x2="0.8" y2="1.6" width="0.05" layer="51"/>
@@ -562,18 +559,18 @@
 </package>
 <package name="MOLEX_SD-67503-010">
 <description>&lt;b&gt;USB Series Mini-B Surface Mounted&lt;/b&gt;</description>
-<wire x1="-0.275" y1="3.81" x2="0.925" y2="3.81" width="0.2" layer="21"/>
+<wire x1="-0.021" y1="3.81" x2="0.635" y2="3.81" width="0.2" layer="21"/>
 <wire x1="3.2" y1="3.3" x2="3.2" y2="2.1" width="0.2" layer="21"/>
 <wire x1="3.2" y1="-2.1" x2="3.2" y2="-3.1" width="0.2" layer="21"/>
-<wire x1="1.025" y1="-3.81" x2="-0.275" y2="-3.81" width="0.2" layer="21"/>
+<wire x1="0.635" y1="-3.81" x2="-0.021" y2="-3.81" width="0.2" layer="21"/>
 <smd name="3" x="2.819" y="0" dx="2.54" dy="0.508" layer="1"/>
 <smd name="2" x="2.819" y="0.8" dx="2.54" dy="0.508" layer="1"/>
 <smd name="5" x="2.819" y="-1.6" dx="2.54" dy="0.508" layer="1"/>
 <smd name="4" x="2.819" y="-0.8" dx="2.54" dy="0.508" layer="1"/>
-<smd name="P$1" x="-2.375" y="-4.5" dx="3.5" dy="2" layer="1"/>
-<smd name="P$2" x="-2.375" y="4.5" dx="3.5" dy="2" layer="1"/>
-<smd name="P$3" x="2.925" y="-4.5" dx="3.2" dy="2" layer="1"/>
-<smd name="P$4" x="2.925" y="4.5" dx="3.2" dy="2" layer="1"/>
+<smd name="P$1" x="-2.121" y="-4.5" dx="3.5" dy="2" layer="1"/>
+<smd name="P$2" x="-2.121" y="4.5" dx="3.5" dy="2" layer="1"/>
+<smd name="P$3" x="2.544" y="-4.5" dx="3.2" dy="2" layer="1"/>
+<smd name="P$4" x="2.544" y="4.5" dx="3.2" dy="2" layer="1"/>
 <smd name="1" x="2.819" y="1.6" dx="2.54" dy="0.508" layer="1"/>
 <text x="4.47" y="1.905" size="0.889" layer="25" font="vector" ratio="11" rot="R270">&gt;NAME</text>
 <text x="-1.88" y="1.905" size="0.635" layer="27" font="vector" ratio="10" rot="R270">&gt;VALUE</text>

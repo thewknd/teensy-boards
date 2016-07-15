@@ -16,4 +16,4 @@ PJRC Teensy 3.2 DIY Reference Board https://www.oshpark.com/shared_projects/d3J0
 
 - the silkscreen is a bit messed up  
   ![teensy3 ref board clone](images/1-P1010144-001.jpg)
-- the actuator from the tactile switch is shorter (ALPS	SKHHPKA010)
+- the actuator of the tactile switch is shorter (ALPS	SKHHPKA010)
