@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -382,10 +382,10 @@
 <text x="0" y="0" size="0.7" layer="51" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="R0603">
-<wire x1="0.635" y1="1.397" x2="0.635" y2="-1.397" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-1.397" x2="-0.635" y2="-1.397" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="-1.397" x2="-0.635" y2="1.397" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="0.127" layer="21"/>
+<wire x1="0.6985" y1="1.4605" x2="0.6985" y2="-1.4605" width="0.127" layer="21"/>
+<wire x1="0.6985" y1="-1.4605" x2="-0.6985" y2="-1.4605" width="0.127" layer="21"/>
+<wire x1="-0.6985" y1="-1.4605" x2="-0.6985" y2="1.4605" width="0.127" layer="21"/>
+<wire x1="-0.6985" y1="1.4605" x2="0.6985" y2="1.4605" width="0.127" layer="21"/>
 <smd name="1" x="0" y="0.762" dx="0.889" dy="0.889" layer="1" roundness="25" rot="R270"/>
 <smd name="2" x="0" y="-0.762" dx="0.889" dy="0.889" layer="1" roundness="25" rot="R270"/>
 <text x="-1.016" y="-1.905" size="0.889" layer="25" ratio="11" rot="R90">&gt;NAME</text>
@@ -512,14 +512,14 @@
 <text x="0" y="0" size="0.7" layer="51" rot="R270" align="center">&gt;NAME</text>
 </package>
 <package name="SOLDERJUMPER">
-<wire x1="1.397" y1="-1.0795" x2="-1.397" y2="-1.0795" width="0.2032" layer="21"/>
-<wire x1="1.397" y1="1.0795" x2="1.651" y2="0.8255" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="0.8255" x2="-1.397" y2="1.0795" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="-0.8255" x2="-1.397" y2="-1.0795" width="0.2032" layer="21" curve="90"/>
-<wire x1="1.397" y1="-1.0795" x2="1.651" y2="-0.8255" width="0.2032" layer="21" curve="90"/>
-<wire x1="1.651" y1="-0.8255" x2="1.651" y2="0.8255" width="0.2032" layer="21"/>
-<wire x1="-1.651" y1="-0.8255" x2="-1.651" y2="0.8255" width="0.2032" layer="21"/>
-<wire x1="-1.397" y1="1.0795" x2="1.397" y2="1.0795" width="0.2032" layer="21"/>
+<wire x1="1.4605" y1="-1.143" x2="-1.4605" y2="-1.143" width="0.2032" layer="21"/>
+<wire x1="1.4605" y1="1.143" x2="1.7145" y2="0.889" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.7145" y1="0.889" x2="-1.4605" y2="1.143" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.7145" y1="-0.889" x2="-1.4605" y2="-1.143" width="0.2032" layer="21" curve="90"/>
+<wire x1="1.4605" y1="-1.143" x2="1.7145" y2="-0.889" width="0.2032" layer="21" curve="90"/>
+<wire x1="1.7145" y1="-0.889" x2="1.7145" y2="0.889" width="0.2032" layer="21"/>
+<wire x1="-1.7145" y1="-0.889" x2="-1.7145" y2="0.889" width="0.2032" layer="21"/>
+<wire x1="-1.4605" y1="1.143" x2="1.4605" y2="1.143" width="0.2032" layer="21"/>
 <smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1" cream="no"/>
 <smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1" cream="no"/>
 <text x="-1.651" y="1.27" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
@@ -533,24 +533,24 @@
 </package>
 <package name="F0805">
 <description>&lt;b&gt;0805&lt;b&gt;&lt;p&gt;</description>
-<wire x1="0.9525" y1="-1.651" x2="-0.9525" y2="-1.651" width="0.127" layer="21"/>
-<wire x1="-0.9525" y1="-1.651" x2="-0.9525" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="-0.9525" y1="-0.127" x2="-0.9525" y2="1.651" width="0.127" layer="21"/>
-<wire x1="-0.9525" y1="1.651" x2="0.9525" y2="1.651" width="0.127" layer="21"/>
-<wire x1="0.9525" y1="1.651" x2="0.9525" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="1.016" y1="-1.7145" x2="-1.016" y2="-1.7145" width="0.127" layer="21"/>
+<wire x1="-1.016" y1="-1.7145" x2="-1.016" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="-1.016" y1="-0.127" x2="-1.016" y2="1.7145" width="0.127" layer="21"/>
+<wire x1="-1.016" y1="1.7145" x2="1.016" y2="1.7145" width="0.127" layer="21"/>
+<wire x1="1.016" y1="1.7145" x2="1.016" y2="-0.127" width="0.127" layer="21"/>
 <smd name="1" x="0" y="0.889" dx="1.016" dy="1.397" layer="1" roundness="25" rot="R270"/>
 <smd name="2" x="0" y="-0.889" dx="1.016" dy="1.397" layer="1" roundness="25" rot="R270"/>
 <text x="1.143" y="1.905" size="0.889" layer="25" font="vector" ratio="11" rot="R270">&gt;NAME</text>
 <text x="-2.159" y="1.27" size="0.635" layer="27" ratio="10" rot="R270">&gt;VALUE</text>
 <rectangle x1="-1.4605" y1="-0.762" x2="1.4605" y2="0.762" layer="39" rot="R270"/>
-<wire x1="0.9525" y1="-0.127" x2="0.9525" y2="-1.651" width="0.127" layer="21"/>
-<wire x1="-0.9525" y1="-0.127" x2="-0.508" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="1.016" y1="-0.127" x2="1.016" y2="-1.7145" width="0.127" layer="21"/>
+<wire x1="-1.016" y1="-0.127" x2="-0.508" y2="-0.127" width="0.127" layer="21"/>
 <wire x1="-0.508" y1="-0.127" x2="-0.381" y2="0" width="0.127" layer="21" curve="90"/>
 <wire x1="-0.381" y1="0" x2="-0.127" y2="0" width="0.127" layer="21" curve="-180"/>
 <wire x1="-0.127" y1="0" x2="0.127" y2="0" width="0.127" layer="21" curve="180"/>
 <wire x1="0.127" y1="0" x2="0.381" y2="0" width="0.127" layer="21" curve="-180"/>
 <wire x1="0.381" y1="0" x2="0.508" y2="-0.127" width="0.127" layer="21" curve="90"/>
-<wire x1="0.508" y1="-0.127" x2="0.9525" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="0.508" y1="-0.127" x2="1.016" y2="-0.127" width="0.127" layer="21"/>
 <wire x1="-0.8" y1="1.6" x2="-0.8" y2="-1.6" width="0.05" layer="51"/>
 <wire x1="-0.8" y1="-1.6" x2="0.8" y2="-1.6" width="0.05" layer="51"/>
 <wire x1="0.8" y1="-1.6" x2="0.8" y2="1.6" width="0.05" layer="51"/>
@@ -1080,10 +1080,10 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESC" value="0.1uF / 10VDC /  X7R " constant="no"/>
+<attribute name="DESC" value="0.1uF / 16VDC /  X7R " constant="no"/>
 <attribute name="MF" value="Murata Electronics" constant="no"/>
-<attribute name="MPN" value="GRM155R71A104KA01D" constant="no"/>
-<attribute name="OC_MOUSER" value="81-GRM155R71A104KA1D" constant="no"/>
+<attribute name="MPN" value="GRM188R71C104KA01D" constant="no"/>
+<attribute name="OC_MOUSER" value="81-GRM39X104K16" constant="no"/>
 <attribute name="PACKAGE" value="0603" constant="no"/>
 <attribute name="TYPE" value="Capacitor" constant="no"/>
 <attribute name="VALUE" value="0.1uF"/>

@@ -12810,10 +12810,10 @@
 <text x="0" y="0" size="0.7" layer="51" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="R0603">
-<wire x1="0.635" y1="1.397" x2="0.635" y2="-1.397" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-1.397" x2="-0.635" y2="-1.397" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="-1.397" x2="-0.635" y2="1.397" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="0.127" layer="21"/>
+<wire x1="0.6985" y1="1.4605" x2="0.6985" y2="-1.4605" width="0.127" layer="21"/>
+<wire x1="0.6985" y1="-1.4605" x2="-0.6985" y2="-1.4605" width="0.127" layer="21"/>
+<wire x1="-0.6985" y1="-1.4605" x2="-0.6985" y2="1.4605" width="0.127" layer="21"/>
+<wire x1="-0.6985" y1="1.4605" x2="0.6985" y2="1.4605" width="0.127" layer="21"/>
 <smd name="1" x="0" y="0.762" dx="0.889" dy="0.889" layer="1" roundness="25" rot="R270"/>
 <smd name="2" x="0" y="-0.762" dx="0.889" dy="0.889" layer="1" roundness="25" rot="R270"/>
 <text x="-1.016" y="-1.905" size="0.889" layer="25" ratio="11" rot="R90">&gt;NAME</text>
@@ -12965,14 +12965,14 @@
 <text x="0" y="0" size="0.7" layer="51" rot="R270" align="center">&gt;NAME</text>
 </package>
 <package name="SOLDERJUMPER">
-<wire x1="1.397" y1="-1.0795" x2="-1.397" y2="-1.0795" width="0.2032" layer="21"/>
-<wire x1="1.397" y1="1.0795" x2="1.651" y2="0.8255" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="0.8255" x2="-1.397" y2="1.0795" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="-0.8255" x2="-1.397" y2="-1.0795" width="0.2032" layer="21" curve="90"/>
-<wire x1="1.397" y1="-1.0795" x2="1.651" y2="-0.8255" width="0.2032" layer="21" curve="90"/>
-<wire x1="1.651" y1="-0.8255" x2="1.651" y2="0.8255" width="0.2032" layer="21"/>
-<wire x1="-1.651" y1="-0.8255" x2="-1.651" y2="0.8255" width="0.2032" layer="21"/>
-<wire x1="-1.397" y1="1.0795" x2="1.397" y2="1.0795" width="0.2032" layer="21"/>
+<wire x1="1.4605" y1="-1.143" x2="-1.4605" y2="-1.143" width="0.2032" layer="21"/>
+<wire x1="1.4605" y1="1.143" x2="1.7145" y2="0.889" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.7145" y1="0.889" x2="-1.4605" y2="1.143" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-1.7145" y1="-0.889" x2="-1.4605" y2="-1.143" width="0.2032" layer="21" curve="90"/>
+<wire x1="1.4605" y1="-1.143" x2="1.7145" y2="-0.889" width="0.2032" layer="21" curve="90"/>
+<wire x1="1.7145" y1="-0.889" x2="1.7145" y2="0.889" width="0.2032" layer="21"/>
+<wire x1="-1.7145" y1="-0.889" x2="-1.7145" y2="0.889" width="0.2032" layer="21"/>
+<wire x1="-1.4605" y1="1.143" x2="1.4605" y2="1.143" width="0.2032" layer="21"/>
 <smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1" cream="no"/>
 <smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1" cream="no"/>
 <text x="-1.651" y="1.27" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
@@ -12986,24 +12986,24 @@
 </package>
 <package name="F0805">
 <description>&lt;b&gt;0805&lt;b&gt;&lt;p&gt;</description>
-<wire x1="0.9525" y1="-1.651" x2="-0.9525" y2="-1.651" width="0.127" layer="21"/>
-<wire x1="-0.9525" y1="-1.651" x2="-0.9525" y2="-0.127" width="0.127" layer="21"/>
-<wire x1="-0.9525" y1="-0.127" x2="-0.9525" y2="1.651" width="0.127" layer="21"/>
-<wire x1="-0.9525" y1="1.651" x2="0.9525" y2="1.651" width="0.127" layer="21"/>
-<wire x1="0.9525" y1="1.651" x2="0.9525" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="1.016" y1="-1.7145" x2="-1.016" y2="-1.7145" width="0.127" layer="21"/>
+<wire x1="-1.016" y1="-1.7145" x2="-1.016" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="-1.016" y1="-0.127" x2="-1.016" y2="1.7145" width="0.127" layer="21"/>
+<wire x1="-1.016" y1="1.7145" x2="1.016" y2="1.7145" width="0.127" layer="21"/>
+<wire x1="1.016" y1="1.7145" x2="1.016" y2="-0.127" width="0.127" layer="21"/>
 <smd name="1" x="0" y="0.889" dx="1.016" dy="1.397" layer="1" roundness="25" rot="R270"/>
 <smd name="2" x="0" y="-0.889" dx="1.016" dy="1.397" layer="1" roundness="25" rot="R270"/>
 <text x="1.143" y="1.905" size="0.889" layer="25" font="vector" ratio="11" rot="R270">&gt;NAME</text>
 <text x="-2.159" y="1.27" size="0.635" layer="27" ratio="10" rot="R270">&gt;VALUE</text>
 <rectangle x1="-1.4605" y1="-0.762" x2="1.4605" y2="0.762" layer="39" rot="R270"/>
-<wire x1="0.9525" y1="-0.127" x2="0.9525" y2="-1.651" width="0.127" layer="21"/>
-<wire x1="-0.9525" y1="-0.127" x2="-0.508" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="1.016" y1="-0.127" x2="1.016" y2="-1.7145" width="0.127" layer="21"/>
+<wire x1="-1.016" y1="-0.127" x2="-0.508" y2="-0.127" width="0.127" layer="21"/>
 <wire x1="-0.508" y1="-0.127" x2="-0.381" y2="0" width="0.127" layer="21" curve="90"/>
 <wire x1="-0.381" y1="0" x2="-0.127" y2="0" width="0.127" layer="21" curve="-180"/>
 <wire x1="-0.127" y1="0" x2="0.127" y2="0" width="0.127" layer="21" curve="180"/>
 <wire x1="0.127" y1="0" x2="0.381" y2="0" width="0.127" layer="21" curve="-180"/>
 <wire x1="0.381" y1="0" x2="0.508" y2="-0.127" width="0.127" layer="21" curve="90"/>
-<wire x1="0.508" y1="-0.127" x2="0.9525" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="0.508" y1="-0.127" x2="1.016" y2="-0.127" width="0.127" layer="21"/>
 <wire x1="-0.8" y1="1.6" x2="-0.8" y2="-1.6" width="0.05" layer="51"/>
 <wire x1="-0.8" y1="-1.6" x2="0.8" y2="-1.6" width="0.05" layer="51"/>
 <wire x1="0.8" y1="-1.6" x2="0.8" y2="1.6" width="0.05" layer="51"/>
@@ -13226,50 +13226,50 @@ einem neuen Namen ab.</description>
 <attribute name="TYPE" value="Crystal" x="36.83" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C5" library="t32_ref" package="C0603" value="0.1uF" x="55.372" y="12.065" rot="R90">
-<attribute name="OC_MOUSER" value="81-GRM155R71A104KA1D" x="55.372" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM155R71A104KA01D" x="55.372" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_MOUSER" value="81-GRM39X104K16" x="55.372" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM188R71C104KA01D" x="55.372" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Murata Electronics" x="55.372" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESC" value="0.1uF / 10VDC /  X7R " x="55.372" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESC" value="0.1uF / 16VDC /  X7R " x="55.372" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="0603" x="55.372" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TYPE" value="Capacitor" x="55.372" y="12.065" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C4" library="t32_ref" package="C0603" value="0.1uF" x="40.64" y="5.207" rot="R90">
-<attribute name="OC_MOUSER" value="81-GRM155R71A104KA1D" x="40.64" y="5.207" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM155R71A104KA01D" x="40.64" y="5.207" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_MOUSER" value="81-GRM39X104K16" x="40.64" y="5.207" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM188R71C104KA01D" x="40.64" y="5.207" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Murata Electronics" x="40.64" y="5.207" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESC" value="0.1uF / 10VDC /  X7R " x="40.64" y="5.207" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESC" value="0.1uF / 16VDC /  X7R " x="40.64" y="5.207" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="0603" x="40.64" y="5.207" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TYPE" value="Capacitor" x="40.64" y="5.207" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C12" library="t32_ref" package="C0603" value="0.1uF" x="20.828" y="5.08" rot="R90">
-<attribute name="OC_MOUSER" value="81-GRM155R71A104KA1D" x="20.828" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM155R71A104KA01D" x="20.828" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_MOUSER" value="81-GRM39X104K16" x="20.828" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM188R71C104KA01D" x="20.828" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Murata Electronics" x="20.828" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESC" value="0.1uF / 10VDC /  X7R " x="20.828" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESC" value="0.1uF / 16VDC /  X7R " x="20.828" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="0603" x="20.828" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TYPE" value="Capacitor" x="20.828" y="5.08" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C8" library="t32_ref" package="C0603" value="0.1uF" x="36.703" y="15.24" rot="R180">
-<attribute name="OC_MOUSER" value="81-GRM155R71A104KA1D" x="36.703" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="GRM155R71A104KA01D" x="36.703" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_MOUSER" value="81-GRM39X104K16" x="36.703" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="GRM188R71C104KA01D" x="36.703" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Murata Electronics" x="36.703" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESC" value="0.1uF / 10VDC /  X7R " x="36.703" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESC" value="0.1uF / 16VDC /  X7R " x="36.703" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="0603" x="36.703" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TYPE" value="Capacitor" x="36.703" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C7" library="t32_ref" package="C0603" value="0.1uF" x="34.925" y="15.24">
-<attribute name="OC_MOUSER" value="81-GRM155R71A104KA1D" x="34.925" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GRM155R71A104KA01D" x="34.925" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="OC_MOUSER" value="81-GRM39X104K16" x="34.925" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="GRM188R71C104KA01D" x="34.925" y="15.24" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Murata Electronics" x="34.925" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="DESC" value="0.1uF / 10VDC /  X7R " x="34.925" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="DESC" value="0.1uF / 16VDC /  X7R " x="34.925" y="15.24" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="0603" x="34.925" y="15.24" size="1.778" layer="27" display="off"/>
 <attribute name="TYPE" value="Capacitor" x="34.925" y="15.24" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C9" library="t32_ref" package="C0603" value="0.1uF" x="55.245" y="6.985" rot="R90">
-<attribute name="OC_MOUSER" value="81-GRM155R71A104KA1D" x="55.245" y="6.985" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GRM155R71A104KA01D" x="55.245" y="6.985" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_MOUSER" value="81-GRM39X104K16" x="55.245" y="6.985" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GRM188R71C104KA01D" x="55.245" y="6.985" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="Murata Electronics" x="55.245" y="6.985" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESC" value="0.1uF / 10VDC /  X7R " x="55.245" y="6.985" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESC" value="0.1uF / 16VDC /  X7R " x="55.245" y="6.985" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="0603" x="55.245" y="6.985" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TYPE" value="Capacitor" x="55.245" y="6.985" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -13470,10 +13470,10 @@ einem neuen Namen ab.</description>
 <attribute name="TYPE" value="PPTC" x="1.524" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C1" library="t32_ref" package="C0603" value="0.1uF" x="16.129" y="17.145" rot="R180">
-<attribute name="OC_MOUSER" value="81-GRM155R71A104KA1D" x="16.129" y="17.145" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="GRM155R71A104KA01D" x="16.129" y="17.145" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="OC_MOUSER" value="81-GRM39X104K16" x="16.129" y="17.145" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="GRM188R71C104KA01D" x="16.129" y="17.145" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="Murata Electronics" x="16.129" y="17.145" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESC" value="0.1uF / 10VDC /  X7R " x="16.129" y="17.145" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESC" value="0.1uF / 16VDC /  X7R " x="16.129" y="17.145" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="0603" x="16.129" y="17.145" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TYPE" value="Capacitor" x="16.129" y="17.145" size="1.778" layer="27" rot="R180" display="off"/>
 </element>

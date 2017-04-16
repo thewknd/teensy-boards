@@ -4,6 +4,8 @@ Teensy3 reference board recreated in eagle
 
 ![teensy3 ref board clone](images/1-P1010128-001.jpg)
 
+The design uses a MCP1825 voltage regulator with 6V max input voltage.
+
 shared basket at mouser: http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=719df5721e
 
 Pre-programmed Bootloader Chip: http://pjrc.com/store/ic_mkl02.html (IC_MKL04Z32_TQFP32)
