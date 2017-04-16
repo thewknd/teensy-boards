@@ -13021,7 +13021,7 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="oshpark-4layer">
+<designrules name="oshpark-4layer *">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -13085,7 +13085,7 @@ einem neuen Namen ab.</description>
 <param name="mlMaxStopFrame" value="3mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="20mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -13571,7 +13571,7 @@ einem neuen Namen ab.</description>
 <wire x1="20.7835" y1="6.8739" x2="20.7835" y2="6.1405" width="0.127" layer="1"/>
 <wire x1="20.7835" y1="6.1405" x2="20.955" y2="5.969" width="0.127" layer="1"/>
 <wire x1="20.955" y1="5.969" x2="21.5835" y2="5.969" width="0.127" layer="1"/>
-<polygon width="0.127" layer="2">
+<polygon width="0.127" layer="2" isolate="0.254">
 <vertex x="-3.556" y="27.559"/>
 <vertex x="-3.683" y="27.559"/>
 <vertex x="-3.683" y="-2.032"/>
